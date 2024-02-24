@@ -9,3 +9,4 @@ Inkay-rverse is only supported on the release version of Aroma configured for au
 
 ## Safety
 Inkay-rverse's patches are all temporary, and only applied in-memory without modifying your console. The SSL patch, while also temporary, could reduce the overall security of your console while active - this is because it no longer checks if a server is verified. However, this does not apply to the Internet Browser, where SSL still works as expected.
+
