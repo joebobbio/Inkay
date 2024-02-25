@@ -47,9 +47,9 @@
     Mandatory plugin information.
     If not set correctly, the loader will refuse to use the plugin.
 **/
-WUPS_PLUGIN_NAME("Inkay-rverse");
+WUPS_PLUGIN_NAME("Inkay-rverse test server");
 WUPS_PLUGIN_DESCRIPTION("Pretendo Network Patcher modified to work with rverse");
-WUPS_PLUGIN_VERSION("v2.3-rv");
+WUPS_PLUGIN_VERSION("v2.3-rvtest");
 WUPS_PLUGIN_AUTHOR("Pretendo contributors & Terminal");
 WUPS_PLUGIN_LICENSE("ISC");
 
