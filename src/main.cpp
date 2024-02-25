@@ -53,7 +53,7 @@ WUPS_PLUGIN_VERSION("v2.3-rvtest");
 WUPS_PLUGIN_AUTHOR("Pretendo contributors & Terminal");
 WUPS_PLUGIN_LICENSE("ISC");
 
-WUPS_USE_STORAGE("inkay-rv");
+WUPS_USE_STORAGE("inkay-rvtest");
 WUPS_USE_WUT_DEVOPTAB();
 
 #include <kernel/kernel.h>
@@ -130,11 +130,11 @@ INITIALIZE_PLUGIN() {
             write_string(patch.address, patch.url);
         }
         DEBUG_FUNCTION_LINE("rverse URL and NoSSL patches applied successfully.");
-        StartNotificationThread("Using rverse.");
+        StartNotificationThread("Using rverse tester server");
     }
     else {
         DEBUG_FUNCTION_LINE("rverse URL and NoSSL patches skipped.");
-        StartNotificationThread("Not using rverse");
+        StartNotificationThread("Not using rverse tester server");
     }
 
     MCP_Close(mcp);
